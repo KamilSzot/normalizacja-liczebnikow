@@ -1,0 +1,22 @@
+[project]
+name = "normalizacja-liczebnikow"
+version = "0.1.0"
+description = "Text normalization library for comparing texts with Polish number support"
+license = "Unlicense"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+    "build>=1.2.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["normalizacja_liczebnikow"]
+

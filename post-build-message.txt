@@ -1,0 +1,12 @@
+
+Build complete!
+
+To install in another project:
+  pip install dist/normalizacja_liczebnikow-0.1.0-py3-none-any.whl
+
+Usage:
+  from normalizacja_liczebnikow import normalize_numbers, normalize_text, normalize
+
+  normalize_numbers(text)  - Replace Polish number words with digits
+  normalize_text(text)     - Normalize text for comparison (lowercase, diacritics, etc.)
+  normalize(text)          - Full normalization (numbers first, then text)
